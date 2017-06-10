@@ -75,7 +75,7 @@ cli.setApp('apache-parse');
 
 cli.parse({
   input: ['i', 'Apache configuration file', 'path'],
-  output: ['o', 'Hiera yaml output path. If none provided the current directory is used.', 'path'],
+  output: ['o', 'Hiera yaml output path. If omitted a file named rewriteRules.yaml is added to the current directory.', 'path'],
 });
 
 cli.enable('status');
