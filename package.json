@@ -1,0 +1,23 @@
+{
+  "name": "puppet-apache-parse-rewrites",
+  "version": "0.0.1",
+  "description": "A simple CLI tool that allows you to parse an Apache config file into yaml for use with Puppet and Hiera",
+  "main": "index.js",
+  "repository": "https://github.com/cpitkin/puppet-apache-parse-rewrites.git",
+  "author": "Charlie Pitkin <cpitkin@protonmail.ch>",
+  "license": "MIT",
+  "scripts": {
+    "pretest": "airbnb-standard",
+    "test": "ava"
+  },
+  "dependencies": {
+    "airbnb-standard": "^1.0.0",
+    "bluebird": "^3.5.0",
+    "cli": "^1.0.1",
+    "json2yaml": "^1.1.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1"
+  }
+}
