@@ -1,6 +1,5 @@
 # puppet-apache-parse-rewrites
-A simple CLI tool that allows you to parse an Apache config file into yaml for use with Puppet and Hiera
-
+A simple CLI tool that allows you to parse Apache rewrite rules into yaml for use with Puppet and Hiera
 ```
 apache-parse -h
 Usage:
